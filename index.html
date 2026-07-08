@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YAKU - Red de franquicias de agua purificada y productos de limpieza biodegradables con IoT">
+    <title>YAKU | Franquicia de Agua Purificada e IoT</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Blobs decorativos -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="nav-container">
+            <img src="assets/logo-yaku.svg" alt="YAKU" class="nav-logo">
+            <ul class="nav-links">
+                <li><a href="#tecnologia">Tecnología</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#franquicia">Franquicia</a></li>
+                <li><a href="#calculadora">Rentabilidad</a></li>
+                <li><a href="#expansion">Expansión</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="https://wa.me/51999999999" class="whatsapp-btn" target="_blank">💬 WhatsApp</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>El Futuro del Agua,<br>En Cada Esquina</h1>
+                <p>La primera red de franquicias de agua re-mineralizada con IoT en Perú. Elimina el plástico, genera rentabilidad verde y accede a un mercado de S/ 1,640 millones.</p>
+                <div class="cta-buttons">
+                    <a href="#franquicia" class="btn btn-primary">Quiero una franquicia</a>
+                    <a href="#calculadora" class="btn btn-secondary">Ver rentabilidad</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-gota.svg" alt="Gota de agua YAKU">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item"><h3>48%</h3><p>Sin acceso a agua segura</p></div>
+            <div class="stat-item"><h3>S/ 1,640M</h3><p>Mercado anual de agua</p></div>
+            <div class="stat-item"><h3>9</h3><p>Etapas de purificación</p></div>
+            <div class="stat-item"><h3>2.7</h3><p>Meses de retorno</p></div>
+        </div>
+    </section>
+
+    <!-- Productos con Tabs -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Agua purificada premium y líquidos de limpieza biodegradables</p>
+            
+            <div class="product-tabs">
+                <button class="tab-button active" data-tab="agua">💧 Agua Purificada</button>
+                <button class="tab-button" data-tab="limpieza">🧼 Líquidos de Limpieza</button>
+            </div>
+
+            <div id="agua" class="product-content active">
+                <div class="machine-showcase">
+                    <div class="machine-label">YAKU</div>
+                    <div class="machine-image">
+                        <img src="assets/maquina-agua.svg" alt="Máquina de Agua YAKU">
+                    </div>
+                    <div class="machine-label bottom">YAKU</div>
+                </div>
+                <div class="product-info">
+                    <h3>Agua Re-mineralizada Premium</h3>
+                    <div class="price">S/ 0.80 <span>/ litro</span></div>
+                    <ul class="features-list">
+                        <li>Purificación de 9 etapas con ósmosis inversa</li>
+                        <li>Re-mineralización premium para mejor sabor</li>
+                        <li>pH balanceado y alcalino</li>
+                        <li>Desinfección con ozono y luz UV</li>
+                        <li>Cero envases plásticos de un solo uso</li>
+                        <li>Disponibles 24/7 en tu comunidad</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="limpieza" class="product-content">
+                <div class="machine-showcase">
+                    <div class="machine-label">YAKU</div>
+                    <div class="machine-image">
+                        <img src="assets/maquina-limpieza.svg" alt="Máquina de Limpieza YAKU">
+                    </div>
+                    <div class="machine-label bottom">YAKU</div>
+                </div>
+                <div class="product-info">
+                    <h3>Líquidos de Limpieza Biodegradables</h3>
+                    <p class="subtitle">Recarga a granel, ahorra dinero y cuida el planeta</p>
+                    <div class="cleaning-grid">
+                        <div class="cleaning-item">
+                            <h4>🧼 Detergente Ropa</h4>
+                            <div class="item-price">S/ 8.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                        <div class="cleaning-item">
+                            <h4> Suavizante</h4>
+                            <div class="item-price">S/ 8.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                        <div class="cleaning-item">
+                            <h4>🍽️ Lavavajillas</h4>
+                            <div class="item-price">S/ 7.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                        <div class="cleaning-item">
+                            <h4>🏠 Limpiatodo</h4>
+                            <div class="item-price">S/ 4.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                        <div class="cleaning-item">
+                            <h4>⚡ Desengrasante</h4>
+                            <div class="item-price">S/ 8.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                        <div class="cleaning-item">
+                            <h4>🚿 Limpia Baño</h4>
+                            <div class="item-price">S/ 8.00 <span>/L</span></div>
+                            <span class="margin-badge">Margen 55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnología con 3 Tabs -->
+    <section id="tecnologia" class="technology">
+        <div class="container">
+            <h2 class="section-title">Tecnología e IoT</h2>
+            <p class="section-subtitle">La barrera de entrada más difícil de replicar</p>
+            
+            <div class="tech-tabs">
+                <button class="tech-tab active" data-tech="impacto">🌍 Impacto Ambiental</button>
+                <button class="tech-tab" data-tech="dashboard">📊 Dashboard Local</button>
+                <button class="tech-tab" data-tech="iot">⚡ IoT</button>
+            </div>
+
+            <div id="impacto" class="tech-content active">
+                <h3>Contadores Públicos en Tiempo Real</h3>
+                <p>Cada recarga se traduce en impacto visible para toda la comunidad</p>
+                <div class="impact-counters">
+                    <div class="counter-card">
+                        <span class="counter-number" data-target="15420">0</span>
+                        <span>kg plástico evitado</span>
+                    </div>
+                    <div class="counter-card">
+                        <span class="counter-number" data-target="8750">0</span>
+                        <span>kg CO₂ no emitido</span>
+                    </div>
+                    <div class="counter-card">
+                        <span class="counter-number" data-target="125000">0</span>
+                        <span>litros tratados</span>
+                    </div>
+                    <div class="counter-card">
+                        <span class="counter-number" data-target="45600">0</span>
+                        <span>botellas ahorradas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dashboard" class="tech-content">
+                <h3>Dashboard del Franquiciado Local</h3>
+                <p>Control total de tu operación en tiempo real</p>
+                <div class="dashboard-features">
+                    <div class="feature-card">
+                        <h4>📈 Ventas en Tiempo Real</h4>
+                        <p>Monitorea cada litro vendido y tus ingresos al instante</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📦 Nivel de Stock</h4>
+                        <p>Alertas automáticas cuando los insumos están por agotarse</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🔧 Alertas de Mantenimiento</h4>
+                        <p>Prevención de fallas antes de que afecten tu operación</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🌱 Impacto Acumulado</h4>
+                        <p>Plástico, CO2 y agua ahorrados por tu máquina</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="iot" class="tech-content">
+                <h3>Telemetría Centralizada</h3>
+                <p>Cada máquina es un nodo conectado 24/7</p>
+                <div class="iot-features">
+                    <div class="feature-card">
+                        <h4>📡 Reporte Automático</h4>
+                        <p>Datos enviados en tiempo real a la nube YAKU</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🗺️ Dashboards Multinivel</h4>
+                        <p>Local, Master y Matriz con visibilidad diferenciada</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💳 Cobro Electrónico</h4>
+                        <p>Yape y tarjetas integrados, cero morosidad</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🔒 Cuota IoT: S/ 60/mes</h4>
+                        <p>Incluye 0.5 GB de transmisión de datos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franquicia -->
+    <section id="franquicia" class="franchise">
+        <div class="container">
+            <h2 class="section-title">Modelo de Inversión</h2>
+            <div class="franchise-grid">
+                <div class="franchise-card">
+                    <h3>🏪 Franquicia Local</h3>
+                    <div class="investment">S/ 10,200</div>
+                    <ul class="features-list">
+                        <li>Canon de entrada: S/ 2,200</li>
+                        <li>Máquina de agua 9 etapas: S/ 8,000</li>
+                        <li>Retienes 82% de cada litro</li>
+                        <li>IoT App Dashboard</li>
+                    </ul>
+                    <div class="roi-badge">ROI: 437% año 1</div>
+                </div>
+                <div class="franchise-card featured">
+                    <div class="popular-tag">MÁS POPULAR</div>
+                    <h3>🗺️ Master Franquicia</h3>
+                    <div class="investment">Desde S/ 10,888</div>
+                    <ul class="features-list">
+                        <li>Territorio: ~200K habitantes</li>
+                        <li>Comisión 15% por máquina</li>
+                        <li>3% regalías territorio</li>
+                        <li>Dashboard master territorial</li>
+                    </ul>
+                    <div class="roi-badge">Alto ROI + Escalabilidad</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora -->
+    <section id="calculadora" class="calculator">
+        <div class="container">
+            <h2 class="section-title">Calculadora de Rentabilidad</h2>
+            <div class="calculator-container">
+                <div class="calculator-toggle">
+                    <button class="toggle-btn active" data-calc="franchisee">Soy Franquiciado</button>
+                    <button class="toggle-btn" data-calc="customer">Soy Cliente</button>
+                </div>
+
+                <div id="franchiseeCalc" class="calculator-form">
+                    <div class="form-group">
+                        <label>Litros vendidos por mes:</label>
+                        <input type="number" id="litrosMes" value="6000" min="1000" max="50000">
+                    </div>
+                    <div class="form-group">
+                        <label>Tarifa de agua:</label>
+                        <select id="tarifaAgua">
+                            <option value="residencial">Residencial (S/ 0.0042/L)</option>
+                            <option value="comercial">Comercial (S/ 0.0154/L)</option>
+                        </select>
+                    </div>
+                    <button class="calculate-btn" onclick="calculateROI()">Calcular Rentabilidad</button>
+                    <div id="results" class="results">
+                        <div class="results-grid">
+                            <div class="result-item"><span class="result-value" id="ingresoBruto">S/ 0</span><div class="result-label">Ingreso Bruto</div></div>
+                            <div class="result-item"><span class="result-value" id="ingresoNeto">S/ 0</span><div class="result-label">Tú Retienes (82%)</div></div>
+                            <div class="result-item"><span class="result-value" id="costoInsumos">S/ 0</span><div class="result-label">Costo Insumos</div></div>
+                            <div class="result-item"><span class="result-value" id="margenNeto">S/ 0</span><div class="result-label">Margen Neto/Mes</div></div>
+                            <div class="result-item"><span class="result-value" id="payback">0</span><div class="result-label">Meses para recuperar</div></div>
+                            <div class="result-item"><span class="result-value" id="roiAnual">0%</span><div class="result-label">ROI Año 1</div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="customerCalc" class="calculator-form" style="display: none;">
+                    <div class="form-group">
+                        <label>Litros consumidos al mes: <span id="litrosDisplay">120</span> L</label>
+                        <input type="range" id="litrosConsumo" min="20" max="400" value="120" step="20">
+                    </div>
+                    <div class="results show">
+                        <div class="results-grid">
+                            <div class="result-item"><span class="result-value" style="color: var(--secondary-green);">S/ <span id="yakuCost">96</span></span><div class="result-label">Con YAKU</div></div>
+                            <div class="result-item"><span class="result-value" style="color: #FF6B6B;">S/ <span id="tradCost">138</span></span><div class="result-label">Tradicional</div></div>
+                            <div class="result-item"><span class="result-value" style="color: var(--primary-blue);">S/ <span id="ahorro">42</span></span><div class="result-label">Ahorro mensual</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expansión -->
+    <section id="expansion" class="roadmap">
+        <div class="container">
+            <h2 class="section-title">Hoja de Ruta 2026-2030</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-phase">Fase 1: Lima</div>
+                        <span class="timeline-year">2026-2027</span>
+                        <p>Consolidación en bodegas, condominios e instituciones de alto tránsito</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-phase">Fase 2: Capitales Regionales</div>
+                        <span class="timeline-year">2027-2028</span>
+                        <p>Arequipa, Trujillo, Chiclayo, Cusco, Piura</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-phase">Fase 3: Comunidades Alejadas</div>
+                        <span class="timeline-year">2029-2030</span>
+                        <p>Sierra, Selva y Costa con mayor déficit de agua</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">¿Qué incluye la inversión de S/ 10,200? <span>▼</span></div>
+                    <div class="faq-answer">Canon de entrada (S/ 2,200), máquina de agua 9 etapas con IoT (S/ 8,000), capacitación, marca YAKU y dashboard de franquiciado.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Necesito local propio? <span>▼</span></div>
+                    <div class="faq-answer">No. Puedes instalar en bodegas, condominios o instituciones mediante acuerdos de comodato o alquiler reducido.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Cómo funciona el IoT? <span>▼</span></div>
+                    <div class="faq-answer">Cada máquina reporta en tiempo real: ventas, stock, estado técnico e impacto ambiental. Todo automatizado vía app.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Cuánto demora recuperar la inversión? <span>▼</span></div>
+                    <div class="faq-answer">~2.7 meses en escenario conservador (6,000 L/mes). En alto tránsito puede ser inferior a 1 mes.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Únete a la Red YAKU</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-row">
+                    <label>Nombre completo *</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-row">
+                    <label>Teléfono / WhatsApp *</label>
+                    <input type="tel" required>
+                </div>
+                <div class="form-row">
+                    <label>Distrito *</label>
+                    <select required>
+                        <option value="">Selecciona</option>
+                        <option>Miraflores</option>
+                        <option>San Isidro</option>
+                        <option>Surco</option>
+                        <option>La Molina</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Tipo de interés *</label>
+                    <select required>
+                        <option value="">Selecciona</option>
+                        <option>🏪 Franquicia Local</option>
+                        <option>🗺️ Master Franquicia</option>
+                        <option>️ Solo Información</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Quiero que me contacten →</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <img src="assets/logo-yaku.svg" alt="YAKU" class="footer-logo">
+            <p>Red de franquicias de agua re-mineralizada con IoT</p>
+            <div class="footer-links">
+                <a href="#tecnologia">Tecnología</a>
+                <a href="#productos">Productos</a>
+                <a href="#franquicia">Franquicia</a>
+                <a href="#calculadora">Rentabilidad</a>
+            </div>
+            <p>📧 franquicias@yaku.pe | 📱 +51 999 999 999</p>
+            <p>© 2026 YAKU. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Flotante -->
+    <a href="https://wa.me/51999999999" class="whatsapp-float" target="_blank">💬</a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
